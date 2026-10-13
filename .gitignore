@@ -8,6 +8,7 @@ venv/
 Thumbs.db
 .DS_Store
 .runtime/
+.vercel/
 .pytest_cache/
 vision_service/keys.json
 vision_service/runs/
