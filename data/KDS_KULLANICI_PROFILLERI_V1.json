@@ -1,0 +1,137 @@
+[
+  {
+    "user_profile_id": "USER_DUSUK_UZUN_I01",
+    "gunluk_ortalama_km": 30.0,
+    "evde_sarj_icin_uygun_sure_saat": 12.0,
+    "butce_tl": 30000.0,
+    "kurulum_yeri": "İç mekan",
+    "profil_amaci": "Düşük km + uzun park",
+    "veri_tipi": "Sentetik deney profili"
+  },
+  {
+    "user_profile_id": "USER_DUSUK_UZUN_D01",
+    "gunluk_ortalama_km": 40.0,
+    "evde_sarj_icin_uygun_sure_saat": 10.0,
+    "butce_tl": null,
+    "kurulum_yeri": "Dış mekan",
+    "profil_amaci": "Düşük km + uzun park + opsiyonel bütçe eksik",
+    "veri_tipi": "Sentetik deney profili"
+  },
+  {
+    "user_profile_id": "USER_ORTA_UZUN_I01",
+    "gunluk_ortalama_km": 80.0,
+    "evde_sarj_icin_uygun_sure_saat": 10.0,
+    "butce_tl": 40000.0,
+    "kurulum_yeri": "İç mekan",
+    "profil_amaci": "Orta km + uzun park",
+    "veri_tipi": "Sentetik deney profili"
+  },
+  {
+    "user_profile_id": "USER_ORTA_KISA_D01",
+    "gunluk_ortalama_km": 100.0,
+    "evde_sarj_icin_uygun_sure_saat": 4.0,
+    "butce_tl": 60000.0,
+    "kurulum_yeri": "Dış mekan",
+    "profil_amaci": "Orta km + kısa park",
+    "veri_tipi": "Sentetik deney profili"
+  },
+  {
+    "user_profile_id": "USER_YUKSEK_UZUN_D01",
+    "gunluk_ortalama_km": 160.0,
+    "evde_sarj_icin_uygun_sure_saat": 10.0,
+    "butce_tl": null,
+    "kurulum_yeri": "Dış mekan",
+    "profil_amaci": "Yüksek km + uzun park + opsiyonel bütçe eksik",
+    "veri_tipi": "Sentetik deney profili"
+  },
+  {
+    "user_profile_id": "USER_YUKSEK_KISA_I01",
+    "gunluk_ortalama_km": 180.0,
+    "evde_sarj_icin_uygun_sure_saat": 4.0,
+    "butce_tl": 80000.0,
+    "kurulum_yeri": "İç mekan",
+    "profil_amaci": "Yüksek km + kısa park",
+    "veri_tipi": "Sentetik deney profili"
+  },
+  {
+    "user_profile_id": "USER_STRES_KISA_D01",
+    "gunluk_ortalama_km": 250.0,
+    "evde_sarj_icin_uygun_sure_saat": 3.0,
+    "butce_tl": 100000.0,
+    "kurulum_yeri": "Dış mekan",
+    "profil_amaci": "Çok yüksek talep + kısa park stres koşulu",
+    "veri_tipi": "Sentetik deney profili"
+  },
+  {
+    "user_profile_id": "USER_STRES_UZUN_I01",
+    "gunluk_ortalama_km": 300.0,
+    "evde_sarj_icin_uygun_sure_saat": 12.0,
+    "butce_tl": null,
+    "kurulum_yeri": "İç mekan",
+    "profil_amaci": "Çok yüksek talep + uzun park + opsiyonel bütçe eksik",
+    "veri_tipi": "Sentetik deney profili"
+  },
+  {
+    "user_profile_id": "USER_DUSUK_KISA_D01",
+    "gunluk_ortalama_km": 20.0,
+    "evde_sarj_icin_uygun_sure_saat": 3.0,
+    "butce_tl": 25000.0,
+    "kurulum_yeri": "Dış mekan",
+    "profil_amaci": "Düşük km + kısa park sınır kombinasyonu",
+    "veri_tipi": "Sentetik deney profili"
+  },
+  {
+    "user_profile_id": "USER_ORTA_UZUN_I02",
+    "gunluk_ortalama_km": 60.0,
+    "evde_sarj_icin_uygun_sure_saat": 8.0,
+    "butce_tl": null,
+    "kurulum_yeri": "İç mekan",
+    "profil_amaci": "Orta km + uzun park + opsiyonel bütçe eksik",
+    "veri_tipi": "Sentetik deney profili"
+  },
+  {
+    "user_profile_id": "USER_ORTA_KISA_D02",
+    "gunluk_ortalama_km": 120.0,
+    "evde_sarj_icin_uygun_sure_saat": 5.0,
+    "butce_tl": 45000.0,
+    "kurulum_yeri": "Dış mekan",
+    "profil_amaci": "Orta km + görece kısa park",
+    "veri_tipi": "Sentetik deney profili"
+  },
+  {
+    "user_profile_id": "USER_YUKSEK_UZUN_D02",
+    "gunluk_ortalama_km": 200.0,
+    "evde_sarj_icin_uygun_sure_saat": 8.0,
+    "butce_tl": 70000.0,
+    "kurulum_yeri": "Dış mekan",
+    "profil_amaci": "Yüksek km + uzun park",
+    "veri_tipi": "Sentetik deney profili"
+  },
+  {
+    "user_profile_id": "USER_MINIMUM_I01",
+    "gunluk_ortalama_km": 5.0,
+    "evde_sarj_icin_uygun_sure_saat": 14.0,
+    "butce_tl": 20000.0,
+    "kurulum_yeri": "İç mekan",
+    "profil_amaci": "Düşük talep sınır koşulu",
+    "veri_tipi": "Sentetik deney profili"
+  },
+  {
+    "user_profile_id": "USER_AZAMI_STRES_D01",
+    "gunluk_ortalama_km": 350.0,
+    "evde_sarj_icin_uygun_sure_saat": 2.0,
+    "butce_tl": 120000.0,
+    "kurulum_yeri": "Dış mekan",
+    "profil_amaci": "Çok yüksek talep / çok kısa park stres koşulu",
+    "veri_tipi": "Sentetik deney profili"
+  },
+  {
+    "user_profile_id": "USER_ORTA_ORTA_I01",
+    "gunluk_ortalama_km": 90.0,
+    "evde_sarj_icin_uygun_sure_saat": 6.0,
+    "butce_tl": 50000.0,
+    "kurulum_yeri": "İç mekan",
+    "profil_amaci": "Orta km + orta park",
+    "veri_tipi": "Sentetik deney profili"
+  }
+]

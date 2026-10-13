@@ -1,0 +1,1 @@
+"""KDS uygulamasının HTTP katmanı."""
