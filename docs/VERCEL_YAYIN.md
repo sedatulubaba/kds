@@ -15,3 +15,13 @@ Görsel servis bağlanmadan elle girişli karar akışı kullanılabilir. Arayü
 Yayın sonrası `/api/health` (100 araç, 27 aday), `/api/catalog`, onaylı elle karar isteği ve mobil arayüz kontrol edilmelidir. Yerel build kontrolü, canlı yayın doğrulaması değildir.
 
 Kaynaklar: https://vercel.com/docs/services, https://vercel.com/docs/services/routing, https://vercel.com/docs/functions/limitations
+
+## 13 Ekim 2026 canlı yayın kontrolü
+
+Site: https://kds-lac.vercel.app
+
+CLI ile üretim yayını tamamlandı. Ana sayfa, `/api/health` ve `/api/catalog` herkese açık erişimde HTTP 200 döndü. 100 araç ve 27 aday doğrulandı. Canlı karar yanıtı yerel Python motorunun yanıtıyla birebir eşleşti (14 değerlendirilebilir, 4 elenen, 9 doğrulama gerekli); onaysız istek HTTP 422 ile reddedildi.
+
+Beş Playwright testi canlı üretim adresinde geçti: karar/gerekçe/JSON indirme, düzenleme sonrası onayın sıfırlanması, bilinmeyen faz, analiz öncesi onay engeli ve mobil genişlik. Test adresi `EVCSDS_TEST_BASE_URL` ortam değişkeniyle değiştirilebilir.
+
+Görsel servis bu yayında yapılandırılmadı (`vision_configured=false`). Elle giriş akışı çalışır; fotoğraf analizi ayrıca çevrimiçi servis bağlantısı gerektirir.
