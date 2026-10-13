@@ -1,0 +1,64 @@
+{
+  "total_scenarios": 85,
+  "total_alternatives": 2153,
+  "totals": {
+    "eligible_count": 842,
+    "excluded_count": 142,
+    "verification_count": 1160,
+    "insufficient_data_count": 9
+  },
+  "dataset_groups": {
+    "D1": {
+      "scenario_count": 25,
+      "eligible_count": 325,
+      "excluded_count": 52,
+      "verification_count": 298,
+      "insufficient_data_count": 0
+    },
+    "D2": {
+      "scenario_count": 20,
+      "eligible_count": 218,
+      "excluded_count": 40,
+      "verification_count": 282,
+      "insufficient_data_count": 0
+    },
+    "D3": {
+      "scenario_count": 20,
+      "eligible_count": 98,
+      "excluded_count": 22,
+      "verification_count": 269,
+      "insufficient_data_count": 9
+    },
+    "D4": {
+      "scenario_count": 20,
+      "eligible_count": 201,
+      "excluded_count": 28,
+      "verification_count": 311,
+      "insufficient_data_count": 0
+    }
+  },
+  "checks": {
+    "total": 2683,
+    "passed": 2683,
+    "failed": 0
+  },
+  "expected_status_comparisons": 19,
+  "expected_status_matches": 19,
+  "source_records_unchanged": true,
+  "errors": [],
+  "sources": {
+    "vehicles": "data\\ARAC_KDS_CEKIRDEK_100.json",
+    "wallboxes": "data\\WALLBOX_KDS_CEKIRDEK_30_V1_1.json",
+    "pools": "data\\KDS_ADAY_HAVUZLARI_V1.json",
+    "homes": "data\\KDS_EV_PROFILLERI_V1.json",
+    "scenarios": "data\\KDS_BENCHMARK_D1_D4.json",
+    "tests": "data\\KDS_TEKNIK_ESLESME_TEST_VAKALARI.xlsx"
+  },
+  "notes": [
+    "Kullanıcı girdileri senaryo alanlarından okunur; bağımsız kullanıcı profil tablosu pakette yok.",
+    "D4-001–D4-019 kaynak teknik testle karşılaştırılır; D4-020 HR06 semantik kontrolüdür.",
+    "Genel uyarı metinleri otomatik statüye çevrilmez; DLM/bütçe/WLTP eksikliği teknik eleme değildir.",
+    "TC-20–TC-22, 85 senaryonun source_test_id referanslarında yoktur; ayrı test olarak çalıştırılmadı.",
+    "Güçler teorik araç–wallbox sınırıdır; kurulum onayı veya güvenli ev gücü değildir."
+  ]
+}
